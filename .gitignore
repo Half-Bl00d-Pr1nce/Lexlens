@@ -1,0 +1,20 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Uploaded images
+uploads/
+
+# Generated output images
+processed_image.jpg
+ocr_visualization.jpg
+underline_visualization.jpg
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
