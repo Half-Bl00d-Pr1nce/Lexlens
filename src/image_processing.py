@@ -22,11 +22,11 @@ def preprocess_image(image_path):
 if __name__ == "__main__":
 
     processed_image = preprocess_image(
-        "uploads/book_image1.jpg"
+        "uploads/book_image3.jpg"
     )
 
     success = cv2.imwrite(
-        "processed_image.jpg",
+        "processed_image3.jpg",
         processed_image
     )
 

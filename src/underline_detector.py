@@ -57,7 +57,7 @@ def detect_underlines(image_path):
 if __name__ == "__main__":
 
     image, underlines = detect_underlines(
-        "uploads/book_image1.jpg"
+        "uploads/book_image5.jpg"
     )
 
     for x, y, width, height in underlines:
@@ -71,7 +71,7 @@ if __name__ == "__main__":
         )
 
     cv2.imwrite(
-        "underline_visualization.jpg",
+        "underline_visualization5.jpg",
         image
     )
 

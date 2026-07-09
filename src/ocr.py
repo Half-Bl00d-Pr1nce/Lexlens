@@ -22,7 +22,7 @@ def extract_text(image_path):
 if __name__ == "__main__":
 
     results = extract_text(
-        "uploads/book_image1.jpg"
+        "uploads/book_image4.jpg"
     )
 
     for result in results:

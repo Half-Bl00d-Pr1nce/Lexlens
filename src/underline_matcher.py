@@ -97,7 +97,7 @@ def match_underlines(image_path):
 
 if __name__ == "__main__":
 
-    image_path = "uploads/book_image1.jpg"
+    image_path = "uploads/book_image5.jpg"
 
     underlined_words = match_underlines(image_path)
 

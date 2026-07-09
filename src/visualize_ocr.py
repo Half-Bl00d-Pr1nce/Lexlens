@@ -43,7 +43,7 @@ def visualize_ocr(image_path):
         )
 
     cv2.imwrite(
-        "ocr_visualization.jpg",
+        "ocr_visualization5.jpg",
         rotated_image
     )
 
@@ -51,5 +51,5 @@ def visualize_ocr(image_path):
 if __name__ == "__main__":
 
     visualize_ocr(
-        "uploads/book_image1.jpg"
+        "uploads/book_image5.jpg"
     )
